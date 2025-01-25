@@ -14,7 +14,7 @@ export default function Home() {
         <ThemeToggleButton />
       </div>
       <div className="w-8/12 mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 relative">
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start overflow-hidden p-2">
+        <main className="flex flex-col gap-8 row-start-2 overflow-hidden p-2">
           <Profile />
           <Skills />
           <Background />

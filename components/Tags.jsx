@@ -8,7 +8,8 @@ const Tags = ({ skills }) => {
         {skills.map((skill, index) => (
           <Badge
             key={index}
-            className="px-2 py-2 text-sm font-medium rounded-full bg-gray-100 text-gray-800 
+            className="px-2 py-2 text-sm font-medium 
+            rounded-xl bg-gray-100 text-gray-800 
             hover:text-white
             dark:bg-gray-800 dark:text-gray-200"
           >
