@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image"; // Correct import for Next.js optimized images
 import profilePic from "@/public/images/profile.png"; // Import the image
 import { Contacts } from "@/components/main/Contacts";
-import { ThemeToggleButton } from "@/components/ThemeToggleButton";
-import { Meteors } from "@/components/ui/meteors";
 
 export const Profile = () => {
   return (

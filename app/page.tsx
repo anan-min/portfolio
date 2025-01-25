@@ -17,8 +17,8 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start overflow-hidden p-2">
           <Profile />
           <Skills />
-          <Projects />
           <Background />
+          <Projects />
         </main>
       </div>
     </>
