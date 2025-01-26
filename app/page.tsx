@@ -22,7 +22,7 @@ export default function Home() {
           <Skills />
           <div className="flex flex-col lg:flex-row gap-x-20 justify-items-start">
             <Educations />
-            <div className="lg:ml-10">
+            <div className="lg:ml-10 xl:ml-28">
               <Experiences />
             </div>
           </div>
