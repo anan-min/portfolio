@@ -6,7 +6,7 @@ export const Contacts = () => {
   return (
     <div className="flex space-x-6">
       <a
-        href="https://github.com/your-username"
+        href="https://github.com/anan-min"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="GitHub"
@@ -15,7 +15,7 @@ export const Contacts = () => {
         <FaGithub className="h-8 w-8" />
       </a>
       <a
-        href="https://www.linkedin.com/in/your-profile"
+        href="https://www.linkedin.com/anan-min"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
@@ -24,14 +24,14 @@ export const Contacts = () => {
         <FaLinkedin className="h-8 w-8" />
       </a>
       <a
-        href="mailto:your-email@example.com"
+        href="mailto:anan.min@outlook.com"
         aria-label="Email"
         className="text-gray-800 dark:text-gray-200 hover:text-blue-600"
       >
         <MdEmail className="h-8 w-8" />
       </a>
       <a
-        href="tel:+1234567890"
+        href="tel:+66888605503"
         aria-label="Phone"
         className="text-gray-800 dark:text-gray-200 hover:text-blue-600"
       >

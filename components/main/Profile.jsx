@@ -18,7 +18,9 @@ export const Profile = () => {
       </div>
 
       <div className="lg:order-1 flex flex-col gap-4 lg:w-8/12 relative">
-        <h1 className="text-5xl font-bold">I&apos;m Anan M.</h1>
+        <h1 className="text-5xl font-bold">
+          I&apos;m <span className="font-bold text-green-400">Anan M.</span>
+        </h1>
         <Contacts />
         <p className="text-base text-gray-700 dark:text-gray-200">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab

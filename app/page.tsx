@@ -8,6 +8,7 @@ import { Meteors } from "@/components/ui/meteors";
 import { Experiences } from "@/components/main/Experiences";
 import { Blogs } from "@/components/Blog/Blogs";
 import { Certificate } from "@/components/Certificate/Certificate";
+import { ContactMe } from "@/components/main/ContactMe";
 
 export default function Home() {
   return (
@@ -16,11 +17,11 @@ export default function Home() {
       <div className="absolute top-4 right-4">
         <ThemeToggleButton />
       </div>
-      <div className="w-11/12 mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 relative">
+      <div className="w-10/12 mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 relative">
         <main className="flex flex-col gap-8 row-start-2 overflow-hidden p-2">
           <Profile />
           <Skills />
-          <div className="flex flex-col lg:flex-row gap-x-20 justify-items-start">
+          <div className="flex flex-col lg:flex-row gap-x-20 justify-items-stretch">
             <Educations />
             <div className="lg:ml-10 xl:ml-28">
               <Experiences />
@@ -29,6 +30,7 @@ export default function Home() {
           <Projects />
           <Blogs />
           <Certificate />
+          <ContactMe />
         </main>
       </div>
     </div>
