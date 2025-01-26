@@ -2,12 +2,12 @@ import React from "react";
 import Tags from "@/components/Tags";
 import YouTube from "react-youtube";
 import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+  ProjectCard,
+  ProjectCardDescription,
+  ProjectCardFooter,
+  ProjectCardHeader,
+  ProjectCardTitle,
+} from "@/components/ui/ProjectCard";
 
 import Image from "next/image";
 import placeholder_img from "@/public/images/place_holder.png";
@@ -19,8 +19,8 @@ export const GalleryBlock = ({
   image = placeholder_img,
 }) => {
   return (
-    <Card>
-      <CardHeader className="w-full aspect-video overflow-hidden rounded-lg">
+    <ProjectCard>
+      <ProjectCardHeader className="w-full aspect-video overflow-hidden rounded-lg">
         <Image
           src={image}
           alt={title}
@@ -28,13 +28,13 @@ export const GalleryBlock = ({
           height={600}
           className="object-cover"
         />
-      </CardHeader>
-      <CardFooter className="flex flex-col items-start gap-2">
-        <CardTitle>{title}</CardTitle>
-        <CardDescription>{description}</CardDescription>
+      </ProjectCardHeader>
+      <ProjectCardFooter className="flex flex-col items-start gap-2">
+        <ProjectCardTitle>{title}</ProjectCardTitle>
+        <ProjectCardDescription>{description}</ProjectCardDescription>
         <Tags skills={skills} />
-      </CardFooter>
-    </Card>
+      </ProjectCardFooter>
+    </ProjectCard>
   );
 };
 
@@ -45,25 +45,31 @@ export const GalleryVideoBlock = ({
   video_link,
 }) => {
   return (
-    <Card>
-      <CardHeader className="relative w-full h-64">
+    <ProjectCard>
+      <ProjectCardHeader
+        className="relative w-full overflow-hidden rounded-lg"
+        style={{
+          aspectRatio: "16 / 9",
+        }}
+      >
         <YouTube
           videoId={new URL(video_link).searchParams.get("v")}
-          className="absolute inset-0 w-full h-full rounded-lg"
+          className="absolute inset-0 w-full h-full"
           opts={{
             width: "100%",
             height: "100%",
             playerVars: {
-              autoplay: 0,
+              autoplay: 1,
+              mute: 1,
             },
           }}
         />
-      </CardHeader>
-      <CardFooter className="flex flex-col items-start gap-2">
-        <CardTitle>{title}</CardTitle>
-        <CardDescription>{description}</CardDescription>
+      </ProjectCardHeader>
+      <ProjectCardFooter className="flex flex-col items-start gap-2">
+        <ProjectCardTitle>{title}</ProjectCardTitle>
+        <ProjectCardDescription>{description}</ProjectCardDescription>
         <Tags skills={skills} />
-      </CardFooter>
-    </Card>
+      </ProjectCardFooter>
+    </ProjectCard>
   );
 };

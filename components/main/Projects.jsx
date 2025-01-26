@@ -24,7 +24,8 @@ const Projects = () => {
           title="Project 1"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["React", "CSS", "HTML", "JS"]}
-          image={require("@/public/images/profile.png")}
+          // eslint-disable-next-line @typescript-eslint/no-require-imports
+          image={require("@/public/images/certificate.jpg")}
         />
         <GalleryBlock
           title="Project 2"
@@ -35,7 +36,7 @@ const Projects = () => {
           title="Project 1"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
           skills={["React", "CSS", "HTML", "JS"]}
-          video_link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          video_link="https://www.youtube.com/watch?v=x2_LgcLXj9g&t=1s"
         />
       </Gallery>
     </div>
