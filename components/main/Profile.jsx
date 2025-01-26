@@ -6,8 +6,8 @@ import { Contacts } from "@/components/main/Contacts";
 export const Profile = () => {
   return (
     <div className="flex flex-col lg:flex-row gap-4 overflow-hidden">
-      <div className="lg:order-2 lg:w-4/12 flex justify-center ">
-        <div className="w-48 h-48 relative aspect-w-1 aspect-h-1 border rounded-full border-gray-300 dark:border-gray-800">
+      <div className="lg:order-2 lg:w-4/12 flex justify-center lg:justify-start ">
+        <div className="w-56 h-56 relative aspect-w-1 aspect-h-1 border rounded-full border-gray-300 dark:border-gray-800">
           <Image
             src={profilePic}
             alt="Profile"

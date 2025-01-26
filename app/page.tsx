@@ -2,9 +2,10 @@
 import Skills from "@/components/main/Skills";
 import Projects from "@/components/main/Projects";
 import { Profile } from "@/components/main/Profile";
-import { Background } from "@/components/main/Background";
+import { Educations } from "@/components/main/Educations";
 import { ThemeToggleButton } from "@/components/ThemeToggleButton";
 import { Meteors } from "@/components/ui/meteors";
+import { Experiences } from "@/components/main/Experiences";
 
 export default function Home() {
   return (
@@ -17,7 +18,12 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 overflow-hidden p-2">
           <Profile />
           <Skills />
-          <Background />
+          <div className="flex flex-col lg:flex-row gap-x-20 justify-items-start">
+            <Educations />
+            <div className="lg:ml-10">
+              <Experiences />
+            </div>
+          </div>
           <Projects />
         </main>
       </div>
