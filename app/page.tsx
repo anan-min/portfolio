@@ -21,7 +21,7 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 overflow-hidden p-2">
           <Profile />
           <Skills />
-          <div className="flex flex-col lg:flex-row gap-x-20 justify-items-stretch">
+          <div className="flex flex-col lg:flex-row gap-x-20 justify-items-start">
             <Educations />
             <div className="lg:ml-10 xl:ml-28">
               <Experiences />

@@ -13,10 +13,10 @@ export const ContactMe = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-green-800 dark:text-gray-200 hover:text-green-400 flex items-center"
+            className="text-gray-800 hover:text-blue-600 dark:text-gray-200  flex items-center dark:hover:text-blue-600"
           >
             <FaGithub className="h-8 w-8" />
-            <span className="ml-4 text-green-400 hover:underline">anan-min</span>
+            <span className="ml-4  hover:underline">anan-min</span>
           </a>
         </li>
         <li className="flex items-center gap-3">
@@ -25,34 +25,30 @@ export const ContactMe = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-gray-800 dark:text-gray-200 hover:text-green-400 flex items-center"
+            className="text-gray-800 hover:text-blue-600 dark:text-gray-200  flex items-center dark:hover:text-blue-600"
           >
             <FaLinkedin className="h-8 w-8" />
-            <span className="ml-4 text-green-400 hover:underline">anan-min</span>
+            <span className="ml-4  hover:underline">anan-min</span>
           </a>
         </li>
         <li className="flex items-center gap-3">
           <a
             href="mailto:anan.min@outlook.com"
             aria-label="Email"
-            className="text-gray-800 dark:text-gray-200 hover:text-green-400 flex items-center"
+            className="text-gray-800 hover:text-blue-600 dark:text-gray-200  flex items-center dark:hover:text-blue-600"
           >
             <MdEmail className="h-8 w-8" />
-            <span className="ml-4 text-green-400 hover:underline">
-              anan.min@outlook.com
-            </span>
+            <span className="ml-4  hover:underline">anan.min@outlook.com</span>
           </a>
         </li>
         <li className="flex items-center gap-3">
           <a
             href="tel:+66888605503"
             aria-label="Phone"
-            className="text-gray-800 dark:text-gray-200 hover:text-green-400 flex items-center"
+            className="text-gray-800 hover:text-blue-600 dark:text-gray-200  flex items-center dark:hover:text-blue-600"
           >
             <FaPhone className="h-8 w-8" />
-            <span className="ml-4 text-green-400 hover:underline">
-              +66 88 860 5503
-            </span>
+            <span className="ml-4  hover:underline">+66 88 860 5503</span>
           </a>
         </li>
       </ul>
