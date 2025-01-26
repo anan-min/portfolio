@@ -1,6 +1,9 @@
 import React from "react";
 import Gallery from "@/components/Gallery/Gallery";
-import GalleryBlock from "@/components/Gallery/GalleryBlock";
+import {
+  GalleryBlock,
+  GalleryVideoBlock,
+} from "@/components/Gallery/GalleryBlock";
 
 const Projects = () => {
   return (
@@ -21,11 +24,18 @@ const Projects = () => {
           title="Project 1"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
           skills={["React", "CSS", "HTML", "JS"]}
+          image={require("@/public/images/profile.png")}
         />
         <GalleryBlock
           title="Project 2"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
           skills={["React", "CSS", "HTML", "JS"]}
+        />
+        <GalleryVideoBlock
+          title="Project 1"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          skills={["React", "CSS", "HTML", "JS"]}
+          video_link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         />
       </Gallery>
     </div>
