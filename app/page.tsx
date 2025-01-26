@@ -11,7 +11,7 @@ import { Certificate } from "@/components/Certificate/Certificate";
 
 export default function Home() {
   return (
-    <>
+    <div className=" relative overflow-hidden">
       <Meteors />
       <div className="absolute top-4 right-4">
         <ThemeToggleButton />
@@ -31,6 +31,6 @@ export default function Home() {
           <Certificate />
         </main>
       </div>
-    </>
+    </div>
   );
 }
