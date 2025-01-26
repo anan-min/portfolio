@@ -12,23 +12,23 @@ const Projects = () => {
       <Gallery>
         <GalleryBlock
           title="Project 1"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["React", "CSS", "HTML", "JS"]}
         />
         <GalleryBlock
           title="Project 2"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["React", "CSS", "HTML", "JS"]}
         />
         <GalleryBlock
           title="Project 1"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["React", "CSS", "HTML", "JS"]}
           image={require("@/public/images/profile.png")}
         />
         <GalleryBlock
           title="Project 2"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          description="lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["React", "CSS", "HTML", "JS"]}
         />
         <GalleryVideoBlock
