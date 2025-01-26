@@ -6,6 +6,8 @@ import { Educations } from "@/components/main/Educations";
 import { ThemeToggleButton } from "@/components/ThemeToggleButton";
 import { Meteors } from "@/components/ui/meteors";
 import { Experiences } from "@/components/main/Experiences";
+import { Blogs } from "@/components/Blog/Blogs";
+import { Certificate } from "@/components/Certificate/Certificate";
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
             </div>
           </div>
           <Projects />
+          <Blogs />
+          <Certificate />
         </main>
       </div>
     </>

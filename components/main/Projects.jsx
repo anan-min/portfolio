@@ -15,6 +15,12 @@ const Projects = () => {
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["React", "CSS", "HTML", "JS"]}
         />
+        <GalleryVideoBlock
+          title="Project 1"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          skills={["React", "CSS", "HTML", "JS"]}
+          video_link="https://www.youtube.com/watch?v=cECVni3evGg"
+        />
         <GalleryBlock
           title="Project 2"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
@@ -27,10 +33,11 @@ const Projects = () => {
           // eslint-disable-next-line @typescript-eslint/no-require-imports
           image={require("@/public/images/certificate.jpg")}
         />
-        <GalleryBlock
-          title="Project 2"
-          description="lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
+        <GalleryVideoBlock
+          title="Project 1"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
           skills={["React", "CSS", "HTML", "JS"]}
+          video_link="https://www.youtube.com/watch?v=SCJrVcIIw1E"
         />
         <GalleryVideoBlock
           title="Project 1"
