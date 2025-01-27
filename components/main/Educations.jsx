@@ -9,18 +9,23 @@ export const Educations = () => {
       <Timeline>
         <TimelineBlock
           date="2021 - 2023"
-          title="Software Engineer"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          title="Bodindecha (Sing Singhaseni) School"
+          description="Served as class leader, played basketball, and organized extracurricular activities such as sports events and school projects."
         />
         <TimelineBlock
           date="2021 - 2023"
-          title="Software Engineer"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          title="Thammasat University"
+          description="Pursued Computer Engineering as part of the TEP twin degree program, achieving academic excellence."
         />
         <TimelineBlock
           date="2021 - 2023"
-          title="Software Engineer"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          title="The University of New South Wales (UNSW Sydney)"
+          description="Studied Computer Engineering as part of the TEP dual degree program while working part-time to support tuition and living expenses."
+        />
+        <TimelineBlock
+          date="2023 - Present"
+          title="Bangkok University"
+          description="Completed my Computer Science degree after transitioning from Thammasat University due to accommodation costs and work-life balance considerations."
         />
       </Timeline>
     </div>

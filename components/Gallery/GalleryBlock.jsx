@@ -9,6 +9,8 @@ import {
   ProjectCardTitle,
 } from "@/components/ui/ProjectCard";
 
+import { FaGithub } from "react-icons/fa";
+import { Button } from "../ui/button";
 import Image from "next/image";
 import placeholder_img from "@/public/images/place_holder.png";
 
@@ -29,10 +31,16 @@ export const GalleryBlock = ({
           className="object-cover"
         />
       </ProjectCardHeader>
-      <ProjectCardFooter className="flex flex-col items-start gap-2">
+      <ProjectCardFooter className="flex flex-col items-start gap-3">
         <ProjectCardTitle>{title}</ProjectCardTitle>
         <ProjectCardDescription>{description}</ProjectCardDescription>
         <Tags skills={skills} />
+        <Button
+          className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-lg my-2 font-semibold"
+          variant={"blog_button"}
+        >
+          <FaGithub /> Code
+        </Button>
       </ProjectCardFooter>
     </ProjectCard>
   );
@@ -69,6 +77,12 @@ export const GalleryVideoBlock = ({
         <ProjectCardTitle>{title}</ProjectCardTitle>
         <ProjectCardDescription>{description}</ProjectCardDescription>
         <Tags skills={skills} />
+        <Button
+          className="max-w-max px-4 mt-4  gap-2 text-justify text-lg my-2 font-semibold"
+          variant={"blog_button"}
+        >
+          <FaGithub /> Code
+        </Button>
       </ProjectCardFooter>
     </ProjectCard>
   );

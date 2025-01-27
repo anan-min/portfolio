@@ -2,9 +2,9 @@ import React from "react";
 
 export const CertificateBlog = ({ text }) => {
   return (
-    <li class="flex items-center">
+    <li className="flex items-center">
       <svg
-        class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 shrink-0"
+        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 shrink-0"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"

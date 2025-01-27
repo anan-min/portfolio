@@ -4,23 +4,32 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skills = [
     "React",
-    "CSS",
+    "NextJS",
+    "Angular",
     "HTML",
-    "JS",
-    "Python",
-    "C",
+    "CSS",
     "Tailwind",
+    "JavaScript (JS)",
+    "Python",
     "Java",
     "C#",
+    "C",
+    "Machine Learning (ML)",
+    "Deep Learning (DL)",
     "PowerBI",
-    "ML",
-    "NN",
     "SQL",
     "Git",
     "Docker",
+    "APIs",
+    "OOP",
+    ".NET MAUI",
+    "Network",
+    "Linux",
+    "Calculus",
+    "Teaching",
   ];
   return (
-    <div className="flex flex-col items-start gap-6">
+    <div className="flex flex-col items-start gap-6 xl:w-2/3">
       <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200">
         Skills
       </h1>

@@ -15,7 +15,7 @@ export const Contacts = () => {
         <FaGithub className="h-8 w-8" />
       </a>
       <a
-        href="https://www.linkedin.com/anan-min"
+        href="https://www.linkedin.com/in/anan-min/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"

@@ -27,11 +27,20 @@ export const Profile = () => {
         </h1>
         <h3 className="text-2xl font-bold">Computer Science Student</h3>
         <Contacts />
-        <p className="text-lg text-gray-700 dark:text-gray-200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab
-          sapiente dignissimos pariatur sint, itaque non explicabo impedit
-          commodi optio iure, nemo beatae, harum reprehenderit omnis laboriosam
-          magni. Tempore, eligendi.
+        <p className="text-lg text-gray-700 dark:text-gray-200 xl:hidden">
+          Web developer with a background in computer science and engineering.
+          Experienced in React, building chatbots, and teaching subjects like
+          machine learning. Strong teamwork skills from extracurriculars in PR,
+          art, and basketball.
+        </p>
+
+        <p className="text-lg text-gray-700 dark:text-gray-200 hidden xl:block">
+          Passionate about web development with a background in computer science
+          and engineering. Experienced in React, building chatbots, and teaching
+          topics like machine learning. Strong teamwork skills gained through
+          extracurriculars in PR, art, basketball, and event management. Fluent
+          in English with practical work experience, bringing a versatile,
+          growth-driven approach to every project.
         </p>
       </div>
     </div>
