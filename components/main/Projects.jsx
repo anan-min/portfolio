@@ -1,7 +1,6 @@
 import React from "react";
 import Gallery from "@/components/Gallery/Gallery";
 import {
-  GalleryBlock,
   GalleryVideoBlock,
   GalleryCarouselBlock,
 } from "@/components/Gallery/GalleryBlock";
