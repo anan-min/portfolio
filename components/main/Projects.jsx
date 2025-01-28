@@ -7,11 +7,14 @@ import {
 } from "@/components/Gallery/GalleryBlock";
 import { FaGithub } from "react-icons/fa";
 import { Button } from "../ui/button";
-import { Mouse, MousePointer } from "lucide-react";
+import { MousePointer } from "lucide-react";
 import workshopImg from "@/public/images/workshop.jpg";
 import workshop1Img from "@/public/images/workshop_1.png";
 import workshop2Img from "@/public/images/workshop_2.png";
 import mobileApp from "@/public/images/mobile_app.png";
+import ML1 from "@/public/images/ML1.png";
+import ML2 from "@/public/images/ML2.jpg";
+import ML3 from "@/public/images/ML3.png";
 
 const projects = [
   {
@@ -84,7 +87,7 @@ const projects = [
     description:
       "This project involves building a machine learning-based recommendation system for Sephora's product dataset. It integrates various machine learning models and employs a voting mechanism to enhance the prediction accuracy. The system was showcased at the NCST Conference, where it received recognition and a certificate for its innovation and practical application.",
     skills: ["ML", "Recommendation System", "Python", "Research"],
-    images: [mobileApp],
+    images: [ML1, ML2, ML3],
     github_link: "https://github.com/anan-min/StockMinderApp",
   },
 ];
@@ -99,16 +102,27 @@ const Projects = () => {
     if (window.matchMedia("(max-width: 640px)").matches) {
       setVisibleCount(2); // Mobile screen
     } else if (window.matchMedia("(max-width: 1024px)").matches) {
-      setVisibleCount(2); // Tablet screen
+      setVisibleCount(3); // Tablet screen
     } else {
       setVisibleCount(6); // Desktop screen
     }
   };
 
   useEffect(() => {
+    // Initialize visible count on first render
     updateVisibleCount();
-    window.addEventListener("resize", updateVisibleCount);
-    return () => window.removeEventListener("resize", updateVisibleCount);
+
+    // Setup resize event listener for window resizing
+    const handleResize = () => {
+      updateVisibleCount();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the resize event listener when the component is unmounted
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (

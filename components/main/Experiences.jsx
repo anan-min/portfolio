@@ -11,16 +11,19 @@ export const Experiences = () => {
           date="2019"
           title="Teaching Instructor for Calculus and Physics"
           description="Awarded for academic excellence, I was hired by Thammasat University's Engineering Faculty to tutor first-year Calculus and Physics for two terms."
+          shortDescription="Thammasat University Tutor"
         />
         <TimelineBlock
           date="2021 - 2023"
           title="Diner Busser"
           description="Worked as a diner busser at Bonanza Thai and a café for 1.5 years to support tuition and accommodation costs, developing strong customer service and multitasking skills."
+          shortDescription="Diner Busser at Bonanza Thai"
         />
         <TimelineBlock
           date="2024"
           title="Teaching Instructor for Machine Learning"
           description="Served as a teaching assistant for a Machine Learning class and later taught high school students during an open house event, leading hands-on projects to demonstrate real-world applications."
+          shortDescription="Bangkok University Open House"
         />
       </Timeline>
     </div>
