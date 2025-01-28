@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className=" relative overflow-hidden">
       <Meteors />
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-4 right-4 z-10">
         <ThemeToggleButton />
       </div>
       <div className="w-11/12  lg:w-10/12 mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 relative">
