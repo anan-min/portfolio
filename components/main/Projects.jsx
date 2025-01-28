@@ -78,6 +78,15 @@ const projects = [
     video_link: "https://youtu.be/CsZ-wvK5hf4",
     github_link: "https://github.com/anan-min/ecommerce-window-app",
   },
+  {
+    type: "carousel",
+    title: "Recommendation System from Sephora Reviwew",
+    description:
+      "This project involves building a machine learning-based recommendation system for Sephora's product dataset. It integrates various machine learning models and employs a voting mechanism to enhance the prediction accuracy. The system was showcased at the NCST Conference, where it received recognition and a certificate for its innovation and practical application.",
+    skills: ["ML", "Recommendation System", "Python", "Research"],
+    images: [mobileApp],
+    github_link: "https://github.com/anan-min/StockMinderApp",
+  },
 ];
 
 const Projects = () => {
@@ -103,7 +112,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 z-10">
       <div className="flex flex-row gap-4 items-center">
         <h1 className="text-3xl font-bold">Projects</h1>
         <a
@@ -144,9 +153,10 @@ const Projects = () => {
         )}
       </Gallery>
       <Button
-        className="max-w-max px-4 py-4 mt-4 text-xl"
+        className="max-w-max px-4 py-4 mt-4 text-xl z-10"
         variant="blog_button"
         onClick={() => setShowMore(!showMore)}
+        onTouchEnd={() => setShowMore(!showMore)}
       >
         <MousePointer />
         {showMore ? "Less Projects" : "More Projects"}
