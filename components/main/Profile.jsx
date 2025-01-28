@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image"; // Correct import for Next.js optimized images
-import profilePic from "@/public/images/profile.png"; // Import the image
 import { Contacts } from "@/components/main/Contacts";
+
+import profilePic from "@/public/images/profile.png";
 
 export const Profile = () => {
   return (
@@ -14,6 +15,7 @@ export const Profile = () => {
             alt="Profile"
             fill
             className="rounded-full object-cover z-10"
+            unoptimized
           />
         </div>
       </div>

@@ -37,6 +37,7 @@ export const GalleryBlock = ({
           width={600}
           height={600}
           className="object-cover"
+          unoptimized
         />
       </ProjectCardHeader>
       <ProjectCardFooter className="flex flex-col items-start gap-3">
@@ -123,6 +124,7 @@ export const GalleryCarouselBlock = ({
                   width={600}
                   height={600}
                   className="object-contain w-full h-full"
+                  unoptimized
                 />
               </CarouselItem>
             ))}

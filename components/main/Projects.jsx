@@ -7,13 +7,11 @@ import {
 import { FaGithub } from "react-icons/fa";
 import { Button } from "../ui/button";
 
-const workshop_img = "/images/workshop.jpg";
-const workshop1_img = "/images/workshop_1.png";
-const workshop2_img = "/images/workshop_2.png";
+import workshopImg from "@/public/images/workshop.jpg";
+import workshop1Img from "@/public/images/workshop_1.png";
+import workshop2Img from "@/public/images/workshop_2.png";
 
-const mobile_app = "/images/mobile_app.png";
-const mobile2_img = "/images/mobile2.png";
-const mobile1_img = "/images/mobile3.png";
+import mobileApp from "@/public/images/mobile_app.png";
 
 const Projects = () => {
   return (
@@ -68,7 +66,7 @@ const Projects = () => {
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
           skills={["C#", ".NET MAUI", "SQL", "Mobile Development"]}
           // eslint-disable-next-line @typescript-eslint/no-require-imports
-          images={[mobile_app, mobile1_img, mobile2_img]}
+          images={[mobileApp]}
           github_link="https://github.com/anan-min/StockMinderApp"
         />
 
@@ -84,7 +82,7 @@ const Projects = () => {
           title="Data Science Workshop"
           description="Led a workshop for high school students on machine learning and EDA, where they used a Google Colab notebook I created to build models for product recommendations from the Sephora review dataset."
           skills={["Machine Learning", "EDA", "Python", "Teamwork"]}
-          images={[workshop_img, workshop1_img, workshop2_img]}
+          images={[workshopImg, workshop1Img, workshop2Img]}
           github_link="https://github.com/anan-min/open_house"
         />
       </Gallery>
