@@ -135,7 +135,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <Button
-            className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-lg my-2"
+            className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-base lg:text-lg my-2"
             variant={"blog_button"}
           >
             <FaGithub /> Check on Github
