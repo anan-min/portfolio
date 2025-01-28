@@ -78,7 +78,7 @@ const projects = [
     description:
       "This window-based eCommerce application is designed to provide a seamless shopping experience for users, allowing them to browse products, add them to their cart, and complete the purchase. The application uses Python libraries such as Tkinter for the user interface and SQLite for managing product listings and user data.",
     skills: ["Python", "OOP"],
-    video_link: "https://youtu.be/CsZ-wvK5hf4",
+    video_link: "https://www.youtube.com/watch?v=CsZ-wvK5hf4&t=2s",
     github_link: "https://github.com/anan-min/ecommerce-window-app",
   },
   {
@@ -138,7 +138,7 @@ const Projects = () => {
             className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-base lg:text-lg my-2"
             variant={"blog_button"}
           >
-            <FaGithub /> Check on Github
+            <FaGithub /> github
           </Button>
         </a>
       </div>

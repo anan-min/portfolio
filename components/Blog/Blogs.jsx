@@ -17,7 +17,7 @@ export const Blogs = () => {
             className="px-4 py-2 inline-flex items-center gap-2 text-justify text-base  my-2"
             variant={"blog_button"}
           >
-            <Rss /> Read more At Medium
+            <Rss /> Medium
           </Button>
         </a>
       </div>
