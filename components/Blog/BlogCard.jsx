@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export const BlogCard = ({ title, description, tags }) => {
+export const BlogCard = ({ title, description, tags, link }) => {
   return (
     <Card>
       <CardHeader>
@@ -18,7 +18,9 @@ export const BlogCard = ({ title, description, tags }) => {
         <CardDescription className="text-lg">{description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <Button variant={"blog_button"}>Read More</Button>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <Button variant={"blog_button"}>Read More</Button>
+        </a>
       </CardContent>
     </Card>
   );
