@@ -16,19 +16,21 @@ import mobileApp from "@/public/images/mobile_app.png";
 const Projects = () => {
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-3xl font-bold">Projects</h1>
-      <a
-        href="https://github.com/anan-min"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button
-          className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-lg my-2"
-          variant={"blog_button"}
+      <div className="flex flex-row gap-4 items-center">
+        <h1 className="text-3xl font-bold">Projects</h1>
+        <a
+          href="https://github.com/anan-min"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <FaGithub /> Check on Github
-        </Button>
-      </a>
+          <Button
+            className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-lg my-2"
+            variant={"blog_button"}
+          >
+            <FaGithub /> Check on Github
+          </Button>
+        </a>
+      </div>
 
       <Gallery>
         <GalleryVideoBlock
@@ -37,6 +39,14 @@ const Projects = () => {
           skills={["React", "LLM", "Fine-tuning", "API"]}
           video_link="https://www.youtube.com/watch?v=x2_LgcLXj9g&t=1s"
           github_link="https://github.com/anan-min/ChatBotAPI"
+        />
+
+        <GalleryCarouselBlock
+          title="Data Science Workshop"
+          description="Led a workshop for high school students on machine learning and EDA, where they used a Google Colab notebook I created to build models for product recommendations from the Sephora review dataset."
+          skills={["Machine Learning", "EDA", "Python", "Teamwork"]}
+          images={[workshopImg, workshop1Img, workshop2Img]}
+          github_link="https://github.com/anan-min/open_house"
         />
         <GalleryVideoBlock
           title="ERP using Angular"
@@ -54,13 +64,6 @@ const Projects = () => {
           github_link="https://anancnn.streamlit.app/"
         />
 
-        <GalleryVideoBlock
-          title="Window Application"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
-          skills={["Python", "OOP"]}
-          video_link="https://youtu.be/CsZ-wvK5hf4"
-          github_link="https://github.com/anan-min/ecommerce-window-app"
-        />
         <GalleryCarouselBlock
           title="Mobile Application .NET MAUI"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ablorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab "
@@ -78,12 +81,12 @@ const Projects = () => {
           github_link="https://github.com/anan-min/bu_open_house_demo_project"
         />
 
-        <GalleryCarouselBlock
-          title="Data Science Workshop"
-          description="Led a workshop for high school students on machine learning and EDA, where they used a Google Colab notebook I created to build models for product recommendations from the Sephora review dataset."
-          skills={["Machine Learning", "EDA", "Python", "Teamwork"]}
-          images={[workshopImg, workshop1Img, workshop2Img]}
-          github_link="https://github.com/anan-min/open_house"
+        <GalleryVideoBlock
+          title="Window Application"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab"
+          skills={["Python", "OOP"]}
+          video_link="https://youtu.be/CsZ-wvK5hf4"
+          github_link="https://github.com/anan-min/ecommerce-window-app"
         />
       </Gallery>
     </div>

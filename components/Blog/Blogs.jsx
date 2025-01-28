@@ -6,19 +6,22 @@ import { Rss } from "lucide-react";
 export const Blogs = () => {
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-3xl font-bold">Blogs</h1>
-      <a
-        href="https://medium.com/@nut999anan"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button
-          className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-lg my-2"
-          variant={"blog_button"}
+      <div className="flex flex-row gap-4 items-center">
+        <h1 className="text-3xl font-bold">Blogs</h1>
+        <a
+          href="https://medium.com/@nut999anan"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <Rss /> Read more At Medium ...
-        </Button>
-      </a>
+          <Button
+            className="max-w-max px-4 py-2 inline-flex items-center gap-2 text-justify text-lg my-2"
+            variant={"blog_button"}
+          >
+            <Rss /> Read more At Medium ...
+          </Button>
+        </a>
+      </div>
+
       <div className="grid grid-cols-1 gap-4">
         <BlogCard
           title="Create CNN model with keras and deploy with streamlit on github community"
