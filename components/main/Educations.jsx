@@ -8,13 +8,13 @@ export const Educations = () => {
       <h1 className="text-3xl font-bold">Educations</h1>
       <Timeline>
         <TimelineBlock
-          date="2021 - 2023"
+          date="2012 - 2018"
           title="Bodindecha (Sing Singhaseni) School"
           description="Served as class leader, played basketball, and organized extracurricular activities such as sports events and school projects."
           shortDescription="Highschool"
         />
         <TimelineBlock
-          date="2021 - 2023"
+          date="2019 - 2021"
           title="Thammasat University"
           description="Pursued Computer Engineering as part of the TEP twin degree program, achieving academic excellence."
           shortDescription="Computer Engineering twin degree program"
